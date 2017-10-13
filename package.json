@@ -1,6 +1,6 @@
 {
   "name": "ringa-fw-core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "RingaJS Core data models and utilities",
   "main": "dist/ringa-fw-core.min.js",
   "scripts": {
