@@ -1,6 +1,6 @@
 {
   "name": "ringa-fw-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "RingaJS Core data models and utilities",
   "scripts": {
     "clean": "rm -rf dist",
