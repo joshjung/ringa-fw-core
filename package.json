@@ -3,6 +3,9 @@
   "version": "0.0.4",
   "description": "RingaJS Core data models and utilities",
   "main": "dist/ringa-fw-core.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "`npm bin`/webpack-dev-server --config ./config/webpack.config.dev.js",
