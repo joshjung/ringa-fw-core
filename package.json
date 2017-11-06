@@ -2,9 +2,10 @@
   "name": "ringa-fw-core",
   "version": "0.0.5",
   "description": "RingaJS Core data models and utilities",
-  "main": "dist/ringa-fw-core.min.js",
+  "main": "./src/index",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "clean": "rm -rf dist",
