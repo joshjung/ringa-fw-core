@@ -22,7 +22,9 @@ module.exports = {
       react: path.resolve(__dirname, '../node_modules/react'),
       'react-dom': path.resolve(__dirname, '../node_modules/react-dom'),
       'moment': path.resolve(__dirname, '../node_modules/moment'),
-      'trie-search': path.resolve(__dirname, '../node_modules/trie-search')
+      'trie-search': path.resolve(__dirname, '../node_modules/trie-search'),
+      'ringa': path.resolve(__dirname, '../node_modules/ringa'),
+      'react-ringa': path.resolve(__dirname, '../node_modules/react-ringa')
     }
   },
   devServer: {
