@@ -4,8 +4,8 @@ export default class ArrayCollection extends Model {
   //-----------------------------------
   // Constructor
   //-----------------------------------
-  constructor(name) {
-    super(name);
+  constructor(name, values) {
+    super(name, values);
 
     let onChange = {
       onChange: this.onChangeHandler.bind(this)
