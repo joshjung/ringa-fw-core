@@ -31,6 +31,10 @@ export default class ArrayCollection extends Model {
     this.addProperty('page', 0, onChange);
     this.addProperty('pageSize', 10, onChange);
     this.addProperty('focusIndex', undefined, onChange);
+
+    if (this.data) {
+      this.update();
+    }
   }
 
   //-----------------------------------
